@@ -35,7 +35,7 @@ The Project provides a test sample that can also be used for inference on the nu
 
 - [Download1] can be downloaded from [Google drive](https://drive.google.com/file/d/1RkjzvDJH4ZapYpeGZerQ6YZyervgE1UK/view?usp=drive_link) or [Baidu Netdisk](https://pan.baidu.com/s/1TyPoP6OPbkvD9xDRE36qxw?pwd=pa1v)
 - [Download2] can be downloaded from [Google drive](https://drive.google.com/file/d/1MxcApSI-CZMinuSOriJZ8JPIM_r-rmoX/view?usp=sharing)
-- [Download2] can be downloaded from [Google drive](https://drive.google.com/file/d/1dlN27GDuTB-RcnLS87s-EEmcLpNz2dDS/view?usp=sharing)
+- [Download3] can be downloaded from [Google drive](https://drive.google.com/file/d/1dlN27GDuTB-RcnLS87s-EEmcLpNz2dDS/view?usp=sharing)
 
 ## Environment
 For desktop or server：
@@ -61,7 +61,8 @@ For Jetson AGX Orin [no check]
 
 ### 1. Export onnx
 
-export onnx follow [Quick Test Via TensorRT In MMDeploy](https://github.com/Yzichen/FlashOCC/blob/master/doc/mmdeploy_test.md)
+- You can direct use the onnx from the [Download3](https://drive.google.com/file/d/1dlN27GDuTB-RcnLS87s-EEmcLpNz2dDS/view?usp=sharing) above.
+- or export onnx follow [Quick Test Via TensorRT In MMDeploy](https://github.com/Yzichen/FlashOCC/blob/master/doc/mmdeploy_test.md)
 ```shell
 python tools/analysis_tools/benchmark_trt.py $config $engine
 ```
